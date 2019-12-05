@@ -1,0 +1,22 @@
+{% load static %}
+<head>
+
+    <meta charset="utf-8">
+    <title>Angular 101</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+</head>
+
+<body  class="container m-t-1">
+    <app-root></app-root>
+
+    <script type="text/javascript" src="{% static 'dist/assets/polyfills.js' %}"></script>
+    <script type="text/javascript" src="{% static 'dist/assets/styles.js' %}"></script>
+    <script type="text/javascript" src="{% static 'dist/assets/vendor.js' %}"></script>
+    <script type="text/javascript" src="{% static 'dist/assets/main.js' %}"></script>
+    <script type="text/javascript" src="{% static 'dist/assets/runtime.js' %}"></script>
+
+</body>
